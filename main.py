@@ -41,7 +41,7 @@ def query_tumblr(driver):
 
 	# Send keys w/o clicking on element 
 	actions = ActionChains(driver)
-	actions.send_keys("inspirational  quotes")			
+	actions.send_keys("inspirational quotes")			
 
 	actions.send_keys(Keys.RETURN)
 	actions.perform()			
